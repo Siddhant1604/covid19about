@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+   #mysubmitbutton[disabled]{
+       background-color:gray;
+       color:white;
+       border-radius:10px;
+   }
+
+   #review{
+       height:70px;
+       width:330px;
+       text-align:center;
+   }
+  
+
+
+#navbar{
+    text-align: right;
+    background-color:dodgerblue;
+    height:45px;
+
+}
+#myhomepage:hover{
+    background-color:blue;
+    transition:0.5s;
+    
+}
+#myhomepage{
+    color:white;
+    text-decoration:"none";
+    padding:5px;
+    margin:5px;
+    
+}
+h1{
+    font-family:'Bangers',cursive;
+    font-size:70px;
+}
+#comment{
+    background-color:dimgray;
+    width:350px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    height:50px;
+    padding:0px;
+    margin:0px;
+    color:white;
+    
+}
+#boxed{
+    background-color:cyan;
+    width:350px;
+    height:300px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    font-family:'Amatic SC',cursive;
+    font-size:40px;
+
+}
+button{
+    border-radius:5px;
+    box-shadow:0px;
+    background-color:darkblue;
+    color:whitesmoke;
+    height:30px;
+    width:80px;
+    font-family:'Amatic SC',cursive;
+    font-size:20px;
+    cursor:-webkit-grab;
+}
+body{
+    font-family:'Amatic SC',cursive;
+    font-size:30px;
+}
+
+    </style>
+</head>
+<body>
+    <div id = "navbar">
+       <center> <a id="myhomepage" href="https://siddhant1604.github.io/covid19home/">Home
+    </a></center>
+      </div>
+   <center><h1><ul>ABOUT ME</ul></h1></center>
+   <P>I am Siddhant.I am 13 years old.I have a sister named "Nabha".She is autistic.I will import a link here about
+        a webpage about my  experience with autism.That was my 3rd website by the way.
+   </P>
+   <p>
+Leaving my sister aside:) we move to my information.I go to Dav Public School,Nerul to do my studies.
+I am in my 8th Grade.I like to cook,swim,draw,paint etc and <big>LOVE</big> to play games and do coding.As I have 
+just started coding I know only HTML,CSS and JavaScript.I ain't saying that I can only write limited code 
+but I am always looking for possibilities with those coding languages.Anything else you want to learn?
+You can ask me question by leaving a comment down below:-
+   </p>
+ 
+   <center>
+      
+<p>Note:You can only comment once.</p>
+<button onclick ="document.getElementById('input').value = ''">Clear </button>
+<button onclick ="document.getElementById('second_input').value = ''">Clear</button>
+    <button onclick ="document.getElementById('review').value = ''">Clear </button>
+ <h2 id="comment">COMMENT</h2>
+    <div id="boxed">
+Name:<input id="input"  type = "text"placeholder="Your name">
+<br>
+Email:<input id = "second_input" placeholder="Your Email"><br>
+
+    
+    Your review:<br><input id="review"type = "text" placeholder = "Your review..."><br>
+    <button id="mysubmitbutton"onclick = mybutton()  type="submit">SUBMIT</button>
+</center>
+</div>
+<p>
+    <center>
+    Then that is it about me.You can contact me by scrolling down at the end of <br> <a href=
+    "https://siddhant1604.github.io/coronavirusawareness/visual studio codes/">MY HOMEPAGE</a>
+    </center>
+</p>
+<script type="text/javascript">
+var nothingelse = "";
+function mybutton(){
+    alert("Your comment has been recorded!");
+document.getElementById("comment");
+comment.style.display = "";
+document.getElementById("input");
+input.style.display = "";
+document.getElementById("second_input");
+second_input.style.display = "";
+document.getElementById("");
+boxed.style.display= "";
+document.getElementById("mysubmitbutton").disabled = true;
+
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
